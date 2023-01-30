@@ -1,10 +1,54 @@
 
 //Relational Operator = >, >=, <, <=, ==, ===, !=, !== 
 //Logical Operator =  and Operator(&&), OR Operator (||), Not Operator(!)
-// Using loop in a array
+
+////how to sorting Numbers
+var Numbers = [1,10,11,2,4,7,8,20,22,23,33,32,19];
+ 
+Numbers = Numbers.sort(function(a,b)
+{
+    return (a-b);
+});
+document.write("Result is : "+ Numbers+"<br>"+"<br>")
+
+//how to sorting Alphabet
+var aman =["jamal","kamal","mohammad","amanullah"]
+aman= aman.sort();
+document.write("Result is : "+aman);
+//Array Methods 
 /*
-var Array = [10,20,30,40,50,60,70,80,90,100];
+var aman = ["akon","Akon","amanullah","anunna"];
+
+johir=aman.push("jamal","kamal","mohammad");
+
+document.write("Shifting the values of: "+aman+"<br>");
+document.write("Shifting the values of: "+johir);
+*/
+/*
+// Using loop in a array from gate the value in user 
+var Number =  Array();
+
+for (i=0; i<5; i++)
+{
+    Number[i] = parseInt(prompt("Please enter the value: "));
+}
  var sum = 0;
+
+for (i = 0; i<5; i++)
+{
+    sum = sum + Number[i];
+}
+document.write("Result is :" +" " + sum + "<br>"+"<br>");
+*/
+
+ 
+/*
+// Using loop in a array
+
+var Array = [10,20,30,40,50,60,70,80,90,100];
+
+ var sum = 0;
+
 for (i = 0; i<10; i++)
 {
     sum = sum + Array[i];
@@ -12,7 +56,7 @@ for (i = 0; i<10; i++)
 console.log("Result is :" +" " + sum);
 */
 
-
+/*
 // Create a IIFEs( Immediately invokeable Function Expressions ) Function
 
 (function Add(number1 , number2)
@@ -60,9 +104,10 @@ document.write("<br>");
 Divide(100,5);
 document.write("<br>");
 Remainder(100,3);
+*/
 
 
-
+/*
 //Ternary Operator 
 var num1 = parseInt( prompt( "Enter the first number : "))  ;
 var num2 = parseInt( prompt( "Enter the second number : ")) ;
@@ -71,10 +116,10 @@ var num3 = parseInt( prompt( "Enter the thart number : ")) ;
 var result = (num1>num2 && num1>num3 ? "First number is large" : num2>num1 && num2>num3 ? " Second number is large " : " Third number is large");
 
 document.write(" Result is  : " + result);
+*/
 
 
-
-
+/*
 //While Loop 
 
 var m = parseInt(prompt("Enter the first number :")) ;
@@ -93,10 +138,10 @@ while(i <= n)
 }
  document.write(" "+"Result = " +sum) 
  
+*/
 
 
-
-
+/*
 //Switch 
 var digit = prompt("Enter any digit :");
 
@@ -135,10 +180,10 @@ switch(digit)
     default :
         document.write("not a digit")
 }
+ */
 
 
-
-
+/*
 // THE LETTER YOU HAVE GIVEN IS VOWEL OR CONSONANT ?
 
 var letter = prompt(" Please give a letter :");
@@ -156,11 +201,11 @@ else
  {
     document.write(" Your given letter is consonant :" + " "+ letter)
 }
-
+*/
 
 
 //Find the greater then number 
-
+/*
 var num1 = prompt("Enter the value of One : ");
 var num2 = prompt("Enter the value of Two : ");
 var num3 = prompt(" Enter the value of Three :");
@@ -178,9 +223,9 @@ else
 {
     document.write("Your given number is :" +" "+num3)
 }
-
+*/
 // letter grade
-
+/*/
 var marks = prompt("Enter Your Marks :");
 debugger;
 if ( marks > 100 || marks < 0)
@@ -217,9 +262,10 @@ else
     document.write("Sorry your are fail !!");
 }
 
+*/
 
 
-
+/*
 
 //Conversion Celsius to Fahrenheit
 
@@ -245,3 +291,4 @@ var height = parseFloat(prompt("Enter Height : "));
 
 var square = base * height ;
 document.write('Square Area is : ' + square );
+*/
