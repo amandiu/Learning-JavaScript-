@@ -62,7 +62,7 @@ document.write("<br>");
 Remainder(100,3);
 
 
-/*
+
 //Ternary Operator 
 var num1 = parseInt( prompt( "Enter the first number : "))  ;
 var num2 = parseInt( prompt( "Enter the second number : ")) ;
@@ -71,10 +71,10 @@ var num3 = parseInt( prompt( "Enter the thart number : ")) ;
 var result = (num1>num2 && num1>num3 ? "First number is large" : num2>num1 && num2>num3 ? " Second number is large " : " Third number is large");
 
 document.write(" Result is  : " + result);
-*/
 
 
-/*
+
+
 //While Loop 
 
 var m = parseInt(prompt("Enter the first number :")) ;
@@ -93,10 +93,10 @@ while(i <= n)
 }
  document.write(" "+"Result = " +sum) 
  
-*/
 
 
-/*
+
+
 //Switch 
 var digit = prompt("Enter any digit :");
 
@@ -135,10 +135,10 @@ switch(digit)
     default :
         document.write("not a digit")
 }
- */
 
 
-/*
+
+
 // THE LETTER YOU HAVE GIVEN IS VOWEL OR CONSONANT ?
 
 var letter = prompt(" Please give a letter :");
@@ -156,11 +156,11 @@ else
  {
     document.write(" Your given letter is consonant :" + " "+ letter)
 }
-*/
+
 
 
 //Find the greater then number 
-/*
+
 var num1 = prompt("Enter the value of One : ");
 var num2 = prompt("Enter the value of Two : ");
 var num3 = prompt(" Enter the value of Three :");
@@ -178,9 +178,9 @@ else
 {
     document.write("Your given number is :" +" "+num3)
 }
-*/
+
 // letter grade
-/*/
+
 var marks = prompt("Enter Your Marks :");
 debugger;
 if ( marks > 100 || marks < 0)
@@ -217,10 +217,9 @@ else
     document.write("Sorry your are fail !!");
 }
 
-*/
 
 
-/*
+
 
 //Conversion Celsius to Fahrenheit
 
@@ -246,4 +245,3 @@ var height = parseFloat(prompt("Enter Height : "));
 
 var square = base * height ;
 document.write('Square Area is : ' + square );
-*/
