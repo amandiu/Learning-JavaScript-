@@ -2,8 +2,43 @@
 //Relational Operator = >, >=, <, <=, ==, ===, !=, !== 
 //Logical Operator =  and Operator(&&), OR Operator (||), Not Operator(!)
 
-////how to sorting Numbers
-var Numbers = [1,10,11,2,4,7,8,20,22,23,33,32,19];
+
+/*
+//--> Task
+//*Create a function called higestScore that will
+//.Recive a 1D array.
+//.return the higest score.
+
+let Array = [1,29,33,44,56,65,88,90];
+function higestScore()
+{
+   let max = Array[0];
+   for (x=1; x<Array.length;x++)
+   {
+    if(max<Array[x]){
+        max = Array[x];
+    }
+   }
+   return max;
+}
+let maxScore = higestScore(Array);
+
+document.write("Max value is : " + maxScore );
+*/
+
+/*
+//Reverse sorting 
+
+var Numbers = [1,10,11,2,4,7,8,20,22,23,33,32,19,4];
+ 
+Numbers = Numbers.sort(function(a,b)
+{
+    return (b-a);
+});
+document.write("Result is : "+ Numbers+"<br>"+"<br>")
+//how to sorting Numbers
+
+var Numbers = [1,10,11,2,4,7,8,20,22,23,33,32,19,4];
  
 Numbers = Numbers.sort(function(a,b)
 {
@@ -12,9 +47,12 @@ Numbers = Numbers.sort(function(a,b)
 document.write("Result is : "+ Numbers+"<br>"+"<br>")
 
 //how to sorting Alphabet
+
 var aman =["jamal","kamal","mohammad","amanullah"]
 aman= aman.sort();
 document.write("Result is : "+aman);
+*/
+
 //Array Methods 
 /*
 var aman = ["akon","Akon","amanullah","anunna"];
