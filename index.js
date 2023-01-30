@@ -2,7 +2,7 @@
 //Relational Operator = >, >=, <, <=, ==, ===, !=, !== 
 //Logical Operator =  and Operator(&&), OR Operator (||), Not Operator(!)
 // Using loop in a array
-
+/*
 var Array = [10,20,30,40,50,60,70,80,90,100];
  var sum = 0;
 for (i = 0; i<10; i++)
@@ -10,9 +10,9 @@ for (i = 0; i<10; i++)
     sum = sum + Array[i];
 }
 console.log("Result is :" +" " + sum);
+*/
 
 
-/*
 // Create a IIFEs( Immediately invokeable Function Expressions ) Function
 
 (function Add(number1 , number2)
@@ -60,7 +60,6 @@ document.write("<br>");
 Divide(100,5);
 document.write("<br>");
 Remainder(100,3);
-*/
 
 
 /*
