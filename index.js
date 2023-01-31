@@ -3,6 +3,77 @@
 //Logical Operator =  and Operator(&&), OR Operator (||), Not Operator(!)
 
 
+
+let playersInfo = [
+    ["Musfik",22],
+    ["Sakib",142],
+    ["Mehidy",40],
+    ["Anamul",20],
+    ["Mominul",32],
+    ["Mashrafee",39],
+    ["Tasnim Shahriar Akash",202],
+    ["Md.Amanullah Akon",316]
+];
+
+function maxRuner()
+{
+    let max = playersInfo[0][0];
+    let maxPlayerName = playersInfo[0][1];
+
+    for (x=1;x<playersInfo.length;x++)
+    {
+        if(maxPlayerName < playersInfo[x][1])
+        {
+            maxPlayerName = playersInfo[x][1];
+            max = playersInfo[x][0];
+        }
+    }
+return (max);
+}
+
+let maxes = maxRuner(playersInfo);
+ document.write("max Runner is : "+ maxes)
+
+
+
+
+
+
+
+
+
+
+
+//Create 2D Array
+
+/*
+let playersInfo = [
+    ["Musfik",22],
+    ["Sakib",142],
+    ["Mehidy",40],
+    ["Anamul",20],
+    ["Mominul",32],
+    ["Mashrafee",39]
+];
+
+function maxRanking(playersInfo)
+{
+    let max = playersInfo[0][0];
+    let maxV = playersInfo[0][1];
+    for(x=1;x<playersInfo.length;x++)
+    {
+       if(maxV < playersInfo[x][1]){
+        maxV = playersInfo[x][1];
+        max = playersInfo[x][0];
+       }
+    }
+
+    return max;
+}
+
+let maxScore = maxRanking(playersInfo);
+document.write("Max value is : " + maxScore );
+*/
 /*
 //--> Task
 //*Create a function called higestScore that will
