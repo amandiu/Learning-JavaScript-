@@ -1,10 +1,26 @@
 //Relational Operator = >, >=, <, <=, ==, ===, !=, !==
 //Logical Operator =  and Operator(&&), OR Operator (||), Not Operator(!)
 
+//Create Guessing Game
+console.clear;
+var  numberOfWon = 0;
+var numberOfLost = 0;
 
+for (var i = 1; i <= 7; i++) {
+  var guessNumber = parseInt(prompt("Enter a number from 1 to 7 : "));
 
+  var ranromNumber = Math.floor(Math.random() * 7 + 1);
+  if (guessNumber == ranromNumber) {
+    console.log("You have won😊😊.");
+    numberOfWon++;
+  } else {
+    console.log("You have lost😭😭. Random number was " + ranromNumber);
+    numberOfLost++;
+  }
+}
 
-
+document.write("Total number of won: " + numberOfWon + "<br>");
+document.write("Total number of lost: " + numberOfLost);
 
 /*
 //Create a Object
@@ -48,7 +64,6 @@ students2.display();
   //lang: ["bangla", "English", "hindi"],
 //};
 */
-
 
 //Example-1
 /*
