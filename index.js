@@ -1,8 +1,57 @@
-
-//Relational Operator = >, >=, <, <=, ==, ===, !=, !== 
+//Relational Operator = >, >=, <, <=, ==, ===, !=, !==
 //Logical Operator =  and Operator(&&), OR Operator (||), Not Operator(!)
 
 
+
+
+
+
+/*
+//Create a Object
+
+//student details
+
+var name = "Md. Amanullah";
+var age = 24;
+var cgpa = 3.04;
+var lang = ["bangla", "English", "hindi"];
+
+//But this work i make to very easily  to useing Object
+// Adding a Constructor
+
+function Student(name, age, cgpa, lang) { //this is a Constructor template
+  this.name = name;
+  this.age = age;
+  this.cgpa = cgpa;
+  this.lang = lang;
+
+  this.display = function() //This is Constructor function
+  {
+    console.log (this.name);
+    console.log (this.age);
+    console.log (this.cgpa);
+    console.log (this.lang);
+  }
+
+}
+
+var students1 = new Student("Md.Amanullah Akon",24,4.50,["bangla", "English", "hindi"]) ;
+var students2 = new Student("Arpa",14,4.98,["bangla", "English", "hindi"]) ;
+
+students1.display();
+students2.display();
+
+//var student1 = {
+  //name: "Md. Amanullah",
+  //age: 24,
+  //cgpa: 3.04,
+  //lang: ["bangla", "English", "hindi"],
+//};
+*/
+
+
+//Example-1
+/*
 
 let playersInfo = [
     ["Musfik",22],
@@ -34,15 +83,7 @@ return (max);
 let maxes = maxRuner(playersInfo);
  document.write("max Runner is : "+ maxes)
 
-
-
-
-
-
-
-
-
-
+*/
 
 //Create 2D Array
 
@@ -124,7 +165,7 @@ aman= aman.sort();
 document.write("Result is : "+aman);
 */
 
-//Array Methods 
+//Array Methods
 /*
 var aman = ["akon","Akon","amanullah","anunna"];
 
@@ -150,7 +191,6 @@ for (i = 0; i<5; i++)
 document.write("Result is :" +" " + sum + "<br>"+"<br>");
 */
 
- 
 /*
 // Using loop in a array
 
@@ -215,7 +255,6 @@ document.write("<br>");
 Remainder(100,3);
 */
 
-
 /*
 //Ternary Operator 
 var num1 = parseInt( prompt( "Enter the first number : "))  ;
@@ -226,7 +265,6 @@ var result = (num1>num2 && num1>num3 ? "First number is large" : num2>num1 && nu
 
 document.write(" Result is  : " + result);
 */
-
 
 /*
 //While Loop 
@@ -248,7 +286,6 @@ while(i <= n)
  document.write(" "+"Result = " +sum) 
  
 */
-
 
 /*
 //Switch 
@@ -291,7 +328,6 @@ switch(digit)
 }
  */
 
-
 /*
 // THE LETTER YOU HAVE GIVEN IS VOWEL OR CONSONANT ?
 
@@ -312,8 +348,7 @@ else
 }
 */
 
-
-//Find the greater then number 
+//Find the greater then number
 /*
 var num1 = prompt("Enter the value of One : ");
 var num2 = prompt("Enter the value of Two : ");
@@ -372,7 +407,6 @@ else
 }
 
 */
-
 
 /*
 
