@@ -5,8 +5,8 @@
 //getElementsByClassName
 
 
-document.getElementById("aman").innerHTML ="Amanullah Akon";//getElementById
-document.getElementById("aman1").innerHTML =("akon");//getElementById
+document.getElementById("aman").innerHTML ="This is Headding.";//getElementById
+document.getElementById("aman1").innerHTML =("I am not a good student");//getElementById
 document.getElementsByTagName("p")[1].innerHTML = ("Hi Sugandha.😊");//getElementsByTagName
 document.getElementsByClassName("had4")[0].innerHTML = ("That's a fun.😛");//getElementsByClassName
-document.getElementsByClassName("smile")[0].innerHTML = ("Obviously this is my mind.😊")//getElementsByClassName
+document.getElementsByClassName("smile")[0].innerHTML = ("Obviously.!! This is my mind.😊")//getElementsByClassName
