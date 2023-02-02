@@ -7,12 +7,12 @@ for (var i = 0; i < 3; i++) {
 
       switch (text) {
         case "Audio1":
-          var audio = new Audio("Sounds/Buker jomano batha.mp3");
+          var audio = new Audio("Sounds/Amon chena cinbe loke.mp3");
           audio.play();
           break;
 
         case "Audio2":
-          var audio = new Audio("Sounds/Amon chena cinbe loke.mp3");
+          var audio = new Audio("Sounds/Buker jomano batha.mp3");
           audio.play();
           break;
 
