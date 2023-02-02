@@ -450,3 +450,46 @@ var height = parseFloat(prompt("Enter Height : "));
 var square = base * height ;
 document.write('Square Area is : ' + square );
 */
+ /*
+             var num1 = prompt(" Enter First number :");
+             var num2 = prompt(" Enter Second number :");
+             
+             num1 = parseInt(num1, 10); // Convert Intiger number from String
+             num2 = parseInt(num2, 10); // Convert Intiger number from String 
+
+            var sum,sub;
+
+            sum = num1 + num2 ;
+            sub = num1 - num2;
+            gun = num1 * num2;
+            vag = num1 / num2;
+            modulas = num1 % num2;
+
+            document.write(num1 +' '+ "+" + ' '+ num2 +' '+"="+'' +' '+ sum + "<br/>"+ "<br/>");
+            document.write(num1 +' '+ "-" + ' '+ num2 +' '+"="+'' +' '+ sub + "<br/>"+ "<br/>");
+            document.write(num1 +' '+ "*" + ' '+ num2 +' '+"="+'' +' '+ gun + "<br/>"+ "<br/>");
+            document.write(num1 +' '+ "/" + ' '+ num2 +' '+"="+'' +' '+ vag + "<br/>"+ "<br/>");
+            document.write(num1 +' '+ "%" + ' '+ num2 +' '+"="+'' +' '+ modulas + "<br/>"+ "<br/>");
+*/
+
+      /*
+
+ var text = "Md.Amanullah Akon ";
+        var aman = prompt ("Enter enything : "); // Get input from user. 
+        document.write( "Number of Characters : " + text.length + "<br/>");     
+        document.write( "Number of Characters : " + aman.length);
+
+
+// Arithmetic Operater -> +,-,*,/, %(modulus), ** Using power/(Exponent) 
+// assignment  Operator -> =, +=, -=,*=,/=,%=
+
+        var x = 3;
+
+        x += 6; // x = x + 6;
+        x -= 7; // x = x - 7;
+        x *= 2; // x = x * 2;
+        x /= 3; // x = x / 3;
+        x %= 4; // x = x % 4;
+
+//Using assignment  Operators
+*/
