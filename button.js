@@ -23,3 +23,9 @@ for (var i = 0; i < 3; i++) {
       }
     });
 }
+function myButton1(){
+  document.querySelector(".myBio").innerHTML = ("This is my bio..");
+}
+function sazzad(){
+  document.querySelector("#sazzadImg").src=("image/Sazzad.jpg");
+}
