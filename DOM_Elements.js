@@ -12,8 +12,16 @@ document.getElementsByClassName("smile")[0].innerHTML = "Obviously.!! This is my
 
 //Downwards-querySellector / querySellectorAll
 
-document.querySelector(".students_list").querySelector(".student_a").innerHTML=("Md.Amanullah");
+document.querySelector(".students_list").children[0].innerHTML=("Md.Amanullah");// how to use children Element.
 
 document.querySelector(".students_list").querySelector(".student_b").innerHTML=("Md.Sagor Alom");
 
 document.querySelector(".student_c").innerHTML=("Sagor Alom");
+
+//how to use ParentElements
+
+//document.querySelector("li").parentElement.innerHTML=("");
+
+// using querySellectorAll 
+document.querySelectorAll("li")[2]; //Three number li (student) information selector are working.
+document.querySelectorAll("li")[2].previousElementSibling.innerHTML=("Md.Shimul Ahamed");//This means select the second number and Change its value;
